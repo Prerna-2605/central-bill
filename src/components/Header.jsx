@@ -46,7 +46,7 @@ function Header() {
                 </div>
             </nav>
             <div className="max-w-[1140px] mx-auto px-3 pt-[190px]">
-                <div className="flex flex-wrap items-center max-[825px]:flex-col-reverse max-[825px]:gap-10 max-[825px]:pb-5 ">
+                <div className="flex flex-wrap max-[825px]:flex-col-reverse max-[825px]:gap-10 max-[825px]:pb-5 max-[971px]:items-center ">
                     <div className='w-1/2 max-[825px]:w-full px-3 flex flex-col justify-between gap-10'>
                         <div className='min-[825px]:max-w-[506px]'>
                             <p className='font-normal text-[64px] text-white leading-[110%] mb-4 max-[1025px]:text-[58px] max-md:text-[52px] max-sm:text-5xl'>
@@ -63,7 +63,7 @@ function Header() {
                             </div>
                         </div>
                         <div>
-                            <p className='font-normal text-[38px] leading-[1.1] lg:text-[#003459] text-white max-md:text-[36px] max-sm:text-[32px] '>
+                            <p className='font-normal text-[38px] leading-[1.1] lg:text-[#003459] text-white max-md:text-[36px] max-sm:text-[32px] max-lg:mb-5 '>
                                 More than <span className='font-bol text-[#00A8E8]'>80,000</span>+ companies trust bill central
                             </p>
                         </div>
