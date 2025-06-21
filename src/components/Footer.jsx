@@ -1,9 +1,10 @@
 import React from 'react'
 import logo from '../assets/svg/big-logo.svg'
+import bgimg from '../assets/png/Footer.png'
 
 function Footer() {
   return (
-    <div className='bg-[url(src/assets/png/Footer.png)] bg-cover bg-center bg-no-repeat'>
+    <div className='bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bgimg})` }}>
       <div className="max-w-[1140px] mx-auto px-3 pt-[68px] flex justify-between mb-[56.55px] max-[670px]:flex-col gap-10">
         <div className='max-[670px]:w-full '>
           <a href="">
@@ -61,37 +62,37 @@ function Footer() {
             <li className='mb-[14px]'>
               <a href="" className='font-normal text-base text-[#E5EBEF] capitalize relative group max-md:text-[15px] '>
                 about
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
               </a>
             </li>
             <li className='mb-[14px]'>
               <a href="" className='font-normal text-base text-[#E5EBEF] capitalize relative group max-md:text-[15px] '>
                 how it works
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
               </a>
             </li>
             <li className='mb-[14px]'>
               <a href="" className='font-normal text-base text-[#E5EBEF] capitalize relative group max-md:text-[15px] '>
                 services
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
               </a>
             </li>
             <li className='mb-[14px]'>
               <a href="" className='font-normal text-base text-[#E5EBEF] capitalize relative group max-md:text-[15px] '>
                 testimonials
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
               </a>
             </li>
             <li className='mb-[14px]'>
               <a href="" className='font-normal text-base text-[#E5EBEF] capitalize relative group max-md:text-[15px] '>
                 why us
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
               </a>
             </li>
             <li className='mb-[14px]'>
               <a href="" className='font-normal text-base text-[#E5EBEF] capitalize relative group max-md:text-[15px] '>
                 FAQ
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
               </a>
             </li>
           </ul>
@@ -103,13 +104,13 @@ function Footer() {
             <li className='mb-[14px]'>
               <a href="" className='font-normal text-base text-[#E5EBEF] capitalize relative group max-md:text-[15px] '>
                 privacy policy
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
               </a>
             </li>
             <li className='mb-[14px]'>
               <a href="" className='font-normal text-base text-[#E5EBEF] capitalize relative group max-md:text-[15px] '>
                 terms of services
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white md:group-hover:w-full transition-all duration-300"></span>
               </a>
             </li>
           </ul>

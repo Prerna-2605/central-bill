@@ -4,6 +4,7 @@ import { nav } from '../utils/helper'
 import Button from './common/Button'
 import section1 from '../assets/png/section1.png'
 import dots from '../assets/svg/dots.svg'
+import bgimg from '../assets/png/section1-bg.png'
 
 function Header() {
     const [state, setIsOpen] = useState(null)
@@ -17,7 +18,7 @@ function Header() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
     return (
-        <div className='bg-[url(src/assets/png/section1-bg.png)] lg:bg-size-[100%_810px] bg-top bg-cover bg-no-repeat mb-16 '>
+        <div className='lg:bg-size-[100%_810px] bg-top bg-cover bg-no-repeat mb-16 ' style={{ backgroundImage: `url(${bgimg})` }}>
             <nav className={`fixed top-0 w-full z-20 transition-all duration-150 ${hasScrolled ? 'bg-[#09476E] shadow-lg ' : 'bg-transparent'}`}>
                 <div className='max-w-[1140px] mx-auto px-3 py-4 flex items-center justify-between'>
                     <a href="">

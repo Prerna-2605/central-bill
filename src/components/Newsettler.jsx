@@ -1,10 +1,11 @@
 import React from 'react'
 import Button from './common/Button'
+import bgimg from '../assets/png/floating.png'
 
 function Newsettler() {
     return (
         <div className='bg-[linear-gradient(to_bottom,_#FFFFFF_50%,_#033B63_50%)]'>
-            <div className='max-w-[1140px] mx-auto px-3 bg-[url(src/assets/png/floating.png)] bg-center bg-cover bg-no-repeat py-[54px] flex flex-col items-center max-[1165px]:mx-3'>
+            <div className='max-w-[1140px] mx-auto px-3 bg-center bg-cover bg-no-repeat py-[54px] flex flex-col items-center max-[1165px]:mx-3' style={{ backgroundImage: `url(${bgimg})` }}>
                 <p className='mb-4 font-normal text-5xl text-[#00171F] text-center max-md:text-[42px] max-sm:text-[40px] '>
                     Join Our <span className='font-bold'>Newsletter</span>
                 </p>
@@ -19,7 +20,7 @@ function Newsettler() {
                 </div>
             </div>
         </div>
-      )
+    )
 }
 
 export default Newsettler
