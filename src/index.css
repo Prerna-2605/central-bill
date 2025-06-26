@@ -9,3 +9,8 @@
     font-family: 'Helvetica', 'sans serif';
     /* outline: red solid 2px; */
 }
+
+.slick-slide>div {
+    padding-left: 12px;
+    padding-right: 12px;
+}

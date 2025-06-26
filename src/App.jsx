@@ -8,7 +8,6 @@ import Comparisons from './components/Comparisons'
 import SimpleSteps from './components/SimpleSteps'
 import Utilities from './components/Utilities'
 import TestimonialHead from './components/TestimonialHead'
-import Newsettler from './components/Newsettler'
 import Footer from './components/Footer'
 import Questions from './components/Questions'
 
@@ -24,7 +23,6 @@ function App() {
       <TestimonialHead />
       <Testimonials />
       <Questions />
-      <Newsettler />
       <Footer />
     </>
   )

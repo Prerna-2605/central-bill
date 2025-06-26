@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = ({ buttonText, buttonClass = "", svgColor }) => {
     return (
-        <button className={`${buttonClass} rounded-tr-[50px] rounded-br-[50px] rounded-bl-[50px] whitespace-nowrap flex items-center gap-[9px] cursor-pointer transition-all duration-200 active:scale-95 hover:scale-[1.02] `}>{buttonText}
+        <button className={`${buttonClass} font-bold rounded-tr-[50px] rounded-br-[50px] rounded-bl-[50px] whitespace-nowrap flex items-center gap-[9px] cursor-pointer transition-all duration-200 active:scale-95 hover:scale-[1.02] `}>{buttonText}
             <svg
                 className={svgColor ? svgColor : `stroke-[#00171F]`}
                 width="15"

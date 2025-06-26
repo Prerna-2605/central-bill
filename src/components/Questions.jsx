@@ -4,7 +4,7 @@ import { QUEST } from '../utils/helper'
 function Questions() {
     const [isOpen, setIsOpen] = useState(null);
     return (
-        <div className='mb-[162px] '>
+        <div className='mb-[327px] '>
             <div className="max-w-[1140px] mx-auto px-3">
                 <p className='font-normal text-5xl leading-[1.1] text-[#00171F] mb-4 text-center max-md:text-[42px] max-sm:text-[40px] '>
                     Frequently Asked <span className='font-bold'>Questions</span>

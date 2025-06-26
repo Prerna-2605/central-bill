@@ -34,7 +34,7 @@ const Company = () => {
         <div className='max-w-[1140px] mx-auto lg:mb-[162px] mb-[100px]'>
             <Slider {...settings}>
                 {slider.map((items, index) => (
-                    <div key={index} className='md:px-3 px-1 w-[186px] '>
+                    <div key={index} className='lg:px-3 px-1 w-[186px] '>
                         <img src={items.image} alt={`slide-${index}`} />
                     </div>
                 ))}

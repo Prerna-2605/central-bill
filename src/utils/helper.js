@@ -143,3 +143,14 @@ export const QUEST = [
         ans: "Yes, but some contracts may include exit fees. We can guide you through the terms of your current plan and help you determine if switching now makes sense for you.",
     }
 ];
+
+export const footer = [
+    {
+        title: "quick link",
+        links: ["about", "how it works", "services", "testimonials", "why us", "FAQ"],
+    },
+    {
+        title: "services",
+        links: ["privacy policy", "terms of services"],
+    },
+]
