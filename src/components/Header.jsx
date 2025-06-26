@@ -26,7 +26,7 @@ function Header() {
                         <img src={logo} alt="logo" />
                     </a>
                     <div>
-                        <ul className={`flex items-center gap-6 menu-list max-[837px]:flex-col max-[837px]:justify-center max-[837px]:fixed max-[837px]:top-0 max-[837px]:w-[70%] max-[837px]:h-full max-[837px]:gap-10 max-[837px]:bg-[#09486E] max-[837px]:opacity-95% z-9 transition-[right] duration-400 ${state === "show" ? 'right-0' : 'max-[837px]:right-[-100%]'}`}>
+                        <ul className={`flex items-center gap-6 menu-list max-[837px]:flex-col max-[837px]:justify-center max-[837px]:fixed max-[837px]:top-0 max-[837px]:w-[70%] max-[837px]:h-full max-[837px]:gap-10 max-[837px]:bg-[#09486E] max-[837px]:opacity-95 z-9 transition-[right] duration-400 ${state === "show" ? 'right-0' : 'max-[837px]:right-[-100%]'}`}>
                             {nav.map((items, index) => (
                                 <li key={index}>
                                     <a href={items.link} className='capitalize text-[#E6ECF0] max-[837px]:text-white max-[837px]:opacity-100 relative group hover:text-white transition-colors duration-200'>
